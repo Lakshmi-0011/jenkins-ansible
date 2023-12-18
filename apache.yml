@@ -1,6 +1,6 @@
 ---
 - name: Deploy Website
-  hosts: your_apache_server
+  hosts: all
   become: true
 
   tasks:
